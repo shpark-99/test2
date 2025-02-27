@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 위치 인증</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=a50e768349b68eac92037c8858d7a462&libraries=services"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>📌 사용자 위치 인증</h2>
+        <input type="text" id="adminID" placeholder="관리자 ID 입력">
+        <button onclick="verifyUserLocation()">위치 인증</button>
+        <p id="result"></p>
+
+        <!-- 🔹 지도 영역 추가 -->
+        <div id="map"></div>
+    </div>
+    <script src="assets/script-user.js"></script>
+</body>
+</html>
