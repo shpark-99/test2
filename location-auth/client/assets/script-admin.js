@@ -1,4 +1,4 @@
-```javascript
+
 function setAdminLocation() {
     const adminID = document.getElementById("adminID").value;
     if (!adminID) return alert("관리자 ID를 입력하세요.");
@@ -20,4 +20,4 @@ function setAdminLocation() {
           .catch(err => console.error(err));
     });
 }
-```
+
